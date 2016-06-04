@@ -6,6 +6,11 @@
     height: 100px;
 }
 
+.center{
+    width: 50%;
+    margin: 0 auto; 
+}
+
 .link-no-style{
   color: black;  
 }
