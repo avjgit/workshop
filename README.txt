@@ -1,1 +1,1 @@
-workshop
+Angular workshop - MVP
