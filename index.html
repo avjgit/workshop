@@ -20,7 +20,8 @@
 			<!-- Custom CSS -->
 			<link href="css/business-frontpage.css" rel="stylesheet">
             
-            <script src="js/introductionDir.js"></script>  
+            <script src="js/introductionDir.js"></script> 
+            <script src="js/modalForm.js"></script>  
 	
     </head>
 	
@@ -57,13 +58,14 @@
         <!-- /.container -->
     </nav>
 
-    <body ng-app="shopApp">
+    <body ng-app="shopApp" class="index">
         <introduction-form></introduction-form>
         <div>Logo</div>
         <div>Navigation</div>
         <div>Intro text</div>
         
         Products:
+        <a href="" ng-click="ListModel()">twst</a>
         <div>Product1: Windows</div>        
         <div>Product2: Doors</div>        
         <div>Product3: Baths</div>
