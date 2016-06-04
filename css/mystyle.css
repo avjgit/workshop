@@ -13,3 +13,11 @@
 .link-no-style:hover{
   color: black;  
 }
+
+.link-no-style:visited{
+  color: black;  
+}
+
+.link-no-style:active{
+  color: black;  
+}
