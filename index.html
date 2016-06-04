@@ -1,28 +1,22 @@
 <html>
 
     <head>
-         <script src="js/bootstrap.js"></script>
-         <script src="js/bootstrap.mini.js"></script>
-         <script src="js/jqBootstrapValidation.js"></script>
-         <script src="js/jquery.js">  </script>
-             
-         
-         <script src="js/angular.min.js"></script>
-         <script src="js/app.js"></script>  
-        
-          <link href="css/mystyle.css" rel="stylesheet">
-          
-        <title>Wooden windows, doors and baths</title>
-		
-			<!-- Bootstrap Core CSS -->
-			<link href="css/bootstrap.min.css" rel="stylesheet">
-
-			<!-- Custom CSS -->
-			<link href="css/business-frontpage.css" rel="stylesheet">
+        <script src="js/jquery.js">  </script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="js/app.js"></script>  
+        <script src="js/appHeader.js"></script>  
+        <script src="js/introductionDir.js"></script>  
             
             <script src="js/introductionDir.js"></script> 
             <script src="js/modalForm.js"></script>  
-	
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/business-frontpage.css" rel="stylesheet">
+        <link href="css/mystyle.css" rel="stylesheet">
+
+        <title>Wooden windows, doors and baths</title>
     </head>
 	
 	
@@ -58,7 +52,8 @@
         <!-- /.container -->
     </nav>
 
-    <body ng-app="shopApp" class="index">
+    <body ng-app="shopApp">
+        <app-header></app-header>
         <introduction-form></introduction-form>
         <div>Logo</div>
         <div>Navigation</div>
