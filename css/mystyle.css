@@ -5,3 +5,11 @@
     width:100%;
     height: 100px;
 }
+
+.link-no-style{
+  color: black;  
+}
+
+.link-no-style:hover{
+  color: black;  
+}
